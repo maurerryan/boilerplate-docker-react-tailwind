@@ -14,10 +14,8 @@ services:
       "always"
   react-app:
     build:
-      "./../docker-frontend"
+      "./../boilerplate-docker-react-tailwind"
     ports:
       - 3000:3000  
-#    volumes:
-#      - ./src:/var/www/html
-#    depends_on:
-#      - client
+    volumes:
+      - ./src:/var/www/html
