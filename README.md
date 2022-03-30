@@ -6,7 +6,7 @@ Clone the project and cd into the project root
 
 
 
-This will build the services:
+This will build the services for the project:
 ### `docker-compose build`
 
 
